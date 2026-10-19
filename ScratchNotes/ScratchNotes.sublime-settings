@@ -1,0 +1,21 @@
+{
+    // The notes folder. This is also the Obsidian vault, so both apps see the same files.
+    "notes_dir": "~/notes",
+    // Subfolder of notes_dir where new notes are created.
+    "inbox": "inbox",
+    // Subfolder where "Adopt Unsaved Tabs" puts tabs that had no file; sublime_export.py writes here too.
+    "adopt_dir": "sublime",
+    // How long after the last keystroke a note is written to disk.
+    "save_delay_ms": 1500,
+    "max_results": 200,
+    // Applied to files under notes_dir only: wrap at a readable width, centred, like Obsidian.
+    "view_settings": {
+        "word_wrap": true,
+        "wrap_width": 90,
+        "draw_centered": true,
+        "line_numbers": false,
+        "gutter": false,
+        "line_padding_top": 2,
+        "line_padding_bottom": 2
+    }
+}

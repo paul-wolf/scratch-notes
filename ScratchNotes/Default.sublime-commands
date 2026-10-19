@@ -1,0 +1,10 @@
+[
+    { "caption": "Notes: New Note", "command": "scratch_new_note" },
+    { "caption": "Notes: Search", "command": "scratch_search_notes" },
+    { "caption": "Notes: Split Selection into New Note", "command": "scratch_split_note" },
+    { "caption": "Notes: Adopt Unsaved Tabs as Files", "command": "scratch_adopt_tabs" },
+    { "caption": "Notes: Settings", "command": "edit_settings", "args": {
+        "base_file": "${packages}/ScratchNotes/ScratchNotes.sublime-settings",
+        "default": "{\n\t$0\n}\n"
+    } }
+]

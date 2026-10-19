@@ -1,0 +1,7 @@
+[
+    { "keys": ["super+n"], "command": "scratch_new_note" },
+    // The plain untitled tab that super+n used to open.
+    { "keys": ["super+alt+n"], "command": "new_file" },
+    { "keys": ["ctrl+alt+f"], "command": "scratch_search_notes" },
+    { "keys": ["ctrl+alt+s"], "command": "scratch_split_note" }
+]
